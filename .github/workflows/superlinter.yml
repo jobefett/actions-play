@@ -10,10 +10,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Run ESLint
-        uses: stefanoeb/eslint-action@1.0.2
-        with:
-          files: src/
+      - name: ESLint (JS/TS) Action 
+        uses: iCrawl/action-eslint@v1
+
 
 #         env:
 #           DEFAULT_BRANCH: main
