@@ -12,7 +12,9 @@ jobs:
 
       - name: Run ESLint
         uses: stefanoeb/eslint-action@1.0.2
+        with:
+          files: src/
 
-        env:
-          DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#         env:
+#           DEFAULT_BRANCH: main
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
