@@ -10,8 +10,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Super-Linter
-        uses: github/super-linter@v4.9.7
+      - name: Run ESLint
+        uses: stefanoeb/eslint-action@1.0.2
+
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
