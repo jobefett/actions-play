@@ -11,3 +11,5 @@ function removeFromCart(idx) {
 }
 
 addToCart("Waterproof Boots");
+
+
