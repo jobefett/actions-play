@@ -2,7 +2,7 @@ const cart = [];
 
 function addToCart(item) {
   cart.push(item);
-  console.log("added item: " + item);
+  console.log("addedItem: " + item);
 }
 
 function removeFromCart(idx) {
