@@ -8,7 +8,7 @@ function addToCart (item)
 
 function removeFromCart(idx) {
   cart.splice(idx, 1);
-    console.log("removed: ", id x);
+    console.log("removed: ", idx);
 }
 
 addToCart("Waterproof Boots");
